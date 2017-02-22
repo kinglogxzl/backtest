@@ -6,10 +6,7 @@ def init(context):
     context.stocks = [context.s2]
     context.init_cash = 10000
 
-
-'''
 if __name__=='__main__':
     context = Context()
     init(context)
     print context.__dict__
-'''
